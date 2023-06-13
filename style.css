@@ -22,6 +22,7 @@ body {
     background-color: rgba(255, 240, 249, 0.252);
     border-radius: 15px;
     flex-basis: 300px;
+    max-width: 300px;
 
     display: flex;
     flex-direction: column;
@@ -38,6 +39,8 @@ body {
     padding: 20px;
     font-size: 30px;
     text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .buttons {
